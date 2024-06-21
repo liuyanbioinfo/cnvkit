@@ -100,7 +100,7 @@ module = [
     "Bio.*",
     "matplotlib.*",
     "pandas",
-    "pomegranate",
+    #"pomegranate",
     "pyfaidx",
     "reportlab.*",
     "scipy.*",

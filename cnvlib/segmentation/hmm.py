@@ -4,12 +4,16 @@ import logging
 
 import numpy as np
 import pandas as pd
-import pomegranate as pom
+#import pomegranate as pom
 import scipy.special
 
 from ..cnary import CopyNumArray as CNA
 from ..descriptives import biweight_midvariance
 from ..segfilters import squash_by_groups
+
+class pom(object):
+    pass
+
 
 
 def segment_hmm(cnarr, method, diploid_parx_genome, window=None, variants=None, processes=1):
